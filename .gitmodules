@@ -1,0 +1,3 @@
+[submodule "git-submodule/mysitegitsubmodule/ui.frontend"]
+	path = git-submodule/mysitegitsubmodule/ui.frontend
+	url = https://github.com/agarccav/aem-frontend-integration-pill-ui-frontend-repo
