@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/mysitegitsubmodule" mode="merge"/>
+    <filter root="/content/mysitegitsubmodule" mode="merge"/>
+    <filter root="/content/dam/mysitegitsubmodule" mode="merge">
+        <exclude pattern="/content/dam/mysitegitsubmodule(/.*)?"/>
+        <include pattern="/content/dam/mysitegitsubmodule/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/mysitegitsubmodule/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/mysitegitsubmodule" mode="merge"/>
+</workspaceFilter>

@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/mysitegitsubmodule",
+        "create path (nt:unstructured) /content/dam/mysitegitsubmodule/jcr:content",
+        "set properties on /content/dam/mysitegitsubmodule/jcr:content\n  set cq:conf{String} to /conf/mysitegitsubmodule\n  set jcr:title{String} to \"My Site Git Submodule\"\nend"
+    ]
+}
